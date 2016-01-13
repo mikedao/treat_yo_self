@@ -1,0 +1,9 @@
+<%= link_to "Treat Yo Self", new_item_path %>
+
+<% @items.each do |item| %>
+  <p><b>Name:</b> <%= item.name %></p>
+  <p><b>Price:</b> <%= item.price %></p>
+  <p><b>Do I Deserve This?:</b> <%= item.do_i_deserve_this %></p>
+  <p><b>Is This Cool?:</b> <%= item.cool %></p>
+  <br>
+<% end %>
