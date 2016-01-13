@@ -16,7 +16,6 @@ class RootPageListsItemsTest < ActionDispatch::IntegrationTest
     item_3 = Item.create(name: "Thundercats", price: 8)
     item_3 = Item.create(name: "Lincoln Logs", price: 7)
 
-
     visit root_path
 
     within("#top-three") do
