@@ -4,6 +4,7 @@ class CreateItems < ActiveRecord::Migration
       t.string :name
       t.integer :price
       t.boolean :do_i_deserve_this
+      t.boolean :cool
 
       t.timestamps null: false
     end

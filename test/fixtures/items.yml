@@ -4,8 +4,10 @@ one:
   name: MyString
   price: 1
   do_i_deserve_this: false
+  cool: false
 
 two:
   name: MyString
   price: 1
   do_i_deserve_this: false
+  cool: false
